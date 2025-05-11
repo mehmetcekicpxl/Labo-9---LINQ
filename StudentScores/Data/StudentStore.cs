@@ -63,9 +63,5 @@ namespace StudentScores.Data
                 };
         }
 
-        public IEnumerable<Student> PassedStudents()
-        {
-            return _students.Where(s => s.Grade > 10);
-        }
     }
 }
