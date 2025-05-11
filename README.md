@@ -2,7 +2,7 @@
 
 In dit labo staat LINQ centraal. Door middel van LINQ kunnen een query uitvoeren op data in het geheugen, dus zonder database. Daarom vertrekken we in de ```StudentStore.cs``` van een bestaande lijst studenten. **Deze lijst wordt op geen enkel moment aangepast, we gaan de enkel gebruiken als basis voor onze queries!**
 
-> !TIP!
+> [!IMPORTANT]
 > Maak tijdens het initialiseren van het MainWindow een nieuwe instantie aan van de StudentStore
 
 ## 1. Alle studenten
@@ -43,7 +43,7 @@ In dit labo staat LINQ centraal. Door middel van LINQ kunnen een query uitvoeren
 
 ## Extra:
 
-> !TIP!
+> [!TIP]
 > Werk verder op dezelfde manier en maak voor elke vereiste een aparte property of functie in de StudentStore
 
 - Toon de studenten met een onderscheiding (score groter of gelijk aan 14) gesorteerd op score, achternaam en voornaam
