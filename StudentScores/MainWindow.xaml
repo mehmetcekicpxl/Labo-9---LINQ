@@ -1,12 +1,16 @@
-﻿<Window x:Class="StudentScores.MainWindow"
+<Window x:Class="StudentScores.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:StudentScores"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="Student Grades" Height="400" Width="600">
+    <StackPanel Margin="10">
+        <WrapPanel>
+            <Button Content="Toon alle studenten" Margin="5"/>
+            <Button Content="Studenten geslaagd (>12)" Margin="5"/>
+            <Button Content="Gesorteerd op voornaam" Margin="5"/>
+            <Button Content="Aantal per departement" Margin="5"/>
+            <Button Content="Samenvatting" Margin="5"/>
+            <Button Content="Aantal departementen" Margin="5"/>
+        </WrapPanel>
+        <ListBox Name="resultListBox" Height="250" Margin="5"/>
+    </StackPanel>
 </Window>
